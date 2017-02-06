@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.sjcny.student.fkaiser.app1.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cat"
+        android:layout_alignParentTop="true"
+        android:contentDescription="Fluffy Cat"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just Cats, Esq."
+        android:textSize="24dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Cat's Meow in Legal Services!"
+        android:textSize="20dp"
+        android:paddingTop="24dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19 Purrview Rd, Meowton New York"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="At Just Cats, it's our pleasure to protect the legal rights and priviledges of your furry friends."
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="44dp"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call 1-MEOW-TA-JAIL for a free legal consultation today!"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="14dp"
+        />
+
+</RelativeLayout>
